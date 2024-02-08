@@ -14,7 +14,7 @@ function Home() {
         <div className="text-white absolute top-1/4 left-4 m-4">
           <h1>THE GIANT</h1>
           <h2>JUPITER</h2>
-          <p className="w-1/3">
+          <p className="w-3/4 lg:w-2/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
             ducimus, cumque, amet odio harum aut unde, distinctio eligendi
             aspernatur nobis sunt! Voluptates eveniet perferendis nulla
@@ -35,7 +35,7 @@ function Home() {
         <div className="absolute text-white top-36 left-4 m-4 p-4">
           <h1>Desgin slider</h1>
           <h2 className="text-teal-400">NEPTUNUS</h2>
-          <p className="w-1/3">
+          <p className="w-3/4 lg:w-2/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
             ducimus, cumque, amet odio harum aut unde, distinctio eligendi
             aspernatur nobis sunt! Voluptates eveniet perferendis nulla
@@ -53,7 +53,7 @@ function Home() {
         <div className="absolute text-white top-36 left-4 m-4 p-4">
           <h1>IN THE NIGHTSKY</h1>
           <h2 className="text-gray-800">THE MOON</h2>
-          <p className="w-1/3">
+          <p className="w-3/4 lg:w-2/5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit
             ducimus, cumque, amet odio harum aut unde, distinctio eligendi
             aspernatur nobis sunt! Voluptates eveniet perferendis nulla
