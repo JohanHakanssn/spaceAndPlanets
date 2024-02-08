@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*,
+/*För att få alla element att ha border-box*/
+*::before *::backdrop {
+  box-sizing: border-box;
+  /*Använd nästan alltid*/
+}
+
+* {
+  /*Ta bort ALL margin och padding i början från alla element*/
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+section {
+  margin-bottom: 10rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px black;
+}
+
+h2 {
+  color: rgb(230, 120, 57);
+  text-shadow: 2px 2px 2px black;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+p {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+button {
+  border-color: transparent;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-right: 1rem;
+  padding: 0.25rem;
+  border: none;
+}
